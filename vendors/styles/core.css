@@ -23,7 +23,7 @@ ul.wysihtml5-toolbar{margin:0;padding:0;display:block;border:1px solid #e3e3e3;b
     display: flex;
     justify-content: center;
     padding: 0.5rem 1.4rem;
-    margin: 10px 0px;
+    margin: 0px 0px;
     font-size: 0.875rem;
     line-height: 1.25rem;
     font-weight: 700;
@@ -32,7 +32,7 @@ ul.wysihtml5-toolbar{margin:0;padding:0;display:block;border:1px solid #e3e3e3;b
     vertical-align: middle;
     align-items: center;
     border-radius: 0.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 0px 1px solid rgba(0, 0, 0, 0.25);
     gap: 0.75rem;
     color: rgb(65, 63, 63) !important;
     background-color: #fff !important;
