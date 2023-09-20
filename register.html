@@ -1,322 +1,237 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<!-- Basic Page Info -->
-		<meta charset="utf-8" />
-		<title>Bharat e-Mart</title>
 
-		<!-- Site favicon -->
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="vendors/images/apple-touch-icon.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="vendors/images/favicon-32x32.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="vendors/images/favicon-16x16.png"
-		/>
+<head>
+	<!-- Basic Page Info -->
+	<meta charset="utf-8" />
+	<title>Bharat e-Mart</title>
 
-		<!-- Mobile Specific Metas -->
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, maximum-scale=1"
-		/>
+	<!-- Site favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="vendors/images/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="vendors/images/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="vendors/images/favicon-16x16.png" />
 
-		<!-- Google Font -->
-		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-			rel="stylesheet"
-		/>
-		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="vendors/styles/core.css" />
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="vendors/styles/icon-font.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="src/plugins/jquery-steps/jquery.steps.css"
-		/>
-		<link rel="stylesheet" type="text/css" href="vendors/styles/style.css" />
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=G-GBZ3SGGX85"
-		></script>
-		<script
-			async
-			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2973766580778258"
-			crossorigin="anonymous"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+		rel="stylesheet" />
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="vendors/styles/core.css" />
+	<link rel="stylesheet" type="text/css" href="vendors/styles/icon-font.min.css" />
+	<link rel="stylesheet" type="text/css" href="src/plugins/jquery-steps/jquery.steps.css" />
+	<link rel="stylesheet" type="text/css" href="vendors/styles/style.css" />
 
-			gtag("config", "G-GBZ3SGGX85");
-		</script>
-		<!-- Google Tag Manager -->
-		<script>
-			(function (w, d, s, l, i) {
-				w[l] = w[l] || [];
-				w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-				var f = d.getElementsByTagName(s)[0],
-					j = d.createElement(s),
-					dl = l != "dataLayer" ? "&l=" + l : "";
-				j.async = true;
-				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-				f.parentNode.insertBefore(j, f);
-			})(window, document, "script", "dataLayer", "GTM-NXZMQSS");
-		</script>
-		<!-- End Google Tag Manager -->
-	</head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBZ3SGGX85"></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2973766580778258"
+		crossorigin="anonymous"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag("js", new Date());
 
-	<body class="login-page">
-		<div class="login-header box-shadow">
-			<div
-				class="container-fluid d-flex justify-content-between align-items-center"
-			>
-				<div class="brand-logo">
-					<a href="login.html">
-						<img src="./vendors/images/bharat_icon.png" alt="" />
-					</a>
-				</div>
-				<div class="login-menu">
-					<ul>
-						<li><a href="login.html" class="text-success">Login</a></li>
-					</ul>
-				</div>
+		gtag("config", "G-GBZ3SGGX85");
+	</script>
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != "dataLayer" ? "&l=" + l : "";
+			j.async = true;
+			j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, "script", "dataLayer", "GTM-NXZMQSS");
+	</script>
+	<!-- End Google Tag Manager -->
+</head>
+
+<body class="login-page">
+	<div class="login-header box-shadow">
+		<div class="container-fluid d-flex justify-content-between align-items-center">
+			<div class="brand-logo">
+				<a href="login.html">
+					<img src="./vendors/images/bharat_icon.png" alt="" />
+				</a>
+			</div>
+			<div class="login-menu">
+				<ul>
+					<li><a href="login.html" class="text-success">Login</a></li>
+				</ul>
 			</div>
 		</div>
-		<div
-			class="register-page-wrap d-flex align-items-center flex-wrap justify-content-center"
-		>
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-md-6 col-lg-4">
-						<img src="vendors/images/register-page-img.png" alt="" />
-					</div>
-					
-					<div class="col-md-6 col-lg-8">
-						<div class=" register-box  bg-white box-shadow border-radius-10">
-							<div class="wizard-content">
-								<form class="tab-wizard2 wizard-circle wizard">
-									<h5>Basic Account Credentials</h5>
-									<section>
-										<div class="form-wrap max-width-600 mx-auto">
-											<div class="form-group row">
-												<label class="col-sm-3 col-form-label">Mobile No<span class="text-danger">*</span></label>
-												<div class="col-sm-7">
-													<input type="number" class="form-control" placeholder="Enter Mobile Number"/>
-													<div class="mt-2">
-													<button type="button" class="btn btn-sm btn-outline-success">Send OTP</button>
-												</div>
-												</div>
-												
-											</div>
-												
-											<div class="form-group row">
-												<label class="col-sm-3 col-form-label">Mobile OTP<span class="text-danger">*</span></label>
-												<div class="col-sm-7">
-													<input type="number" class="form-control" placeholder="OTP"/>
-													<div class="mt-2">
-													<button type="button" class="btn btn-sm btn-success">Verify OTP</button>
-												</div>
-												</div>
-												
-											</div>
+	</div>
+	<div class="register-page-wrap d-flex align-items-center flex-wrap justify-content-center">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 col-lg-4">
+					<img src="vendors/images/register-page-img.png" alt="" />
+				</div>
 
-											<div class="form-group row">
-												<label class="col-sm-3 col-form-label">Email ID<span class="text-danger">*</span></label>
-												<div class="col-sm-7">
-													<input type="number" class="form-control" placeholder="johndoe@gmail.com"/>
-													<div class="mt-2">
-													<button type="button" class="btn btn-sm btn-outline-success">Send OTP</button>
-												</div>
-												</div>
-												
-											</div>
-												
-											<div class="form-group row">
-												<label class="col-sm-3 col-form-label">Email OTP<span class="text-danger">*</span></label>
-												<div class="col-sm-7">
-													<input type="number" class="form-control" placeholder="OTP"/>
-													<div class="mt-2">
-													<button type="button" class="btn btn-sm btn-success">Verify OTP</button>
-												</div>
-												</div>
-												
-											</div>
-
-											
-
-											<div class="form-group row">
-												<label class="col-sm-3 col-form-label">GSTIN NO<span class="text-danger">*</span></label>
-												<div class="col-sm-7">
-													<input type="text" class="form-control" placeholder="15 Digit GSTIN"/>
-												</div>
-											</div>
-										</div>
-									</section>
-									<!-- Step 2 -->
-									<h5>Personal Information</h5>
-									<section>
-										<div class="form-wrap max-width-600 mx-auto">
-											<div class="form-group row">
-												<label class="col-sm-4 col-form-label"
-													>First Name<span class="text-danger">*</span></label
-												>
-												<div class="col-sm-8">
-													<input type="text" class="form-control" placeholder="John" />
-												</div>
-											</div>
-											<div class="form-group row">
-												<label class="col-sm-4 col-form-label"
-													>Last Name<span class="text-danger">*</span></label
-												>
-												<div class="col-sm-8">
-													<input type="text" class="form-control" placeholder="Thomas Doe"/>
-												</div>
-											</div>
-											
-															
-											<div class="form-group row">
-												<label class="col-sm-4 col-form-label">Create Password<span class="text-danger">*</span></label>
-												<div class="col-sm-8">
-													<input type="text" class="form-control" placeholder="********"/>
-												</div>
-											</div>
-											<div class="form-group row">
-												<label class="col-sm-4 col-form-label">Comfirm Password<span class="text-danger">*</span></label>
-												<div class="col-sm-8">
-													<input type="text" class="form-control" placeholder="********"/>
-												</div>
-											</div>
-										</div>
-									</section>
-									<!-- Step 3 -->
-									
-									<!-- Step 4 -->
-									<h5>Overview Information</h5>
-									<section>
-										<div class="form-wrap max-width-600 mx-auto">
-											<ul class="register-info">
-												<li>
-													<div class="row">
-														<div class="col-sm-4 weight-600">Name:-</div>
-														<div class="col-sm-8">Gopal Bharat Patil</div>
-													</div>
-												</li>
-												<li>
-													<div class="row">
-														<div class="col-sm-4 weight-600">Email ID:-</div>
-														<div class="col-sm-8">gopalpatilrcpit@gmail.com</div>
-													</div>
-												</li>
-												<li>
-													<div class="row">
-														<div class="col-sm-4 weight-600">Mobile No:-</div>
-														<div class="col-sm-8">9021386468</div>
-													</div>
-												</li>
-												<li>
-													<div class="row">
-														<div class="col-sm-4 weight-600">GSTIN:-</div>
-														<div class="col-sm-8">r5bbhbv54b4b</div>
-													</div>
-												</li>
-												
-											</ul>
-											<div class="custom-control custom-checkbox mt-4">
-												<input
-													type="checkbox"
-													class="custom-control-input"
-													id="customCheck1"
-												/>
-												<label class="custom-control-label" for="customCheck1"
-													>I have read and agreed to the terms of services and
-													privacy policy <span class="text-danger">*</span></label
-												>
-											</div>
-										</div>
-									</section>
-								</form>
+				<div class="col-md-6 col-lg-8">
+					<div class=" register-box  bg-white box-shadow border-radius-10">
+						<div class="p-4 m-3">
+							<div class="login-title">
+								<h2 class="text-center text-success">Sign Up To BharatMart</h2>
 							</div>
+							<form class="m-3" action="#">
+								
+								<section>
+									<div class="form-wrap max-width-600 mx-auto">
+
+										<div class="form-group row">
+											<label class="col-sm-4 col-form-label">First Name<span
+													class="text-danger">*</span></label>
+											<div class="col-sm-7">
+												<input type="number" class="form-control"
+													placeholder="john" />
+
+											</div>
+
+										</div>
+										<div class="form-group row">
+											<label class="col-sm-4 col-form-label">Last Name<span
+													class="text-danger">*</span></label>
+											<div class="col-sm-7">
+												<input type="number" class="form-control"
+													placeholder="doe" />
+
+											</div>
+
+										</div>
+										<div class="form-group row">
+											<label class="col-sm-4 col-form-label">Email ID<span
+													class="text-danger">*</span></label>
+											<div class="col-sm-7">
+												<input type="number" class="form-control"
+													placeholder="johndoe@gmail.com" />
+
+											</div>
+
+										</div>
+										<div class="form-group row">
+											<label class="col-sm-4 col-form-label">Mobile No<span
+													class="text-danger">*</span></label>
+											<div class="col-sm-7">
+												<input type="number" class="form-control"
+													placeholder="9021386468" />
+
+											</div>
+
+										</div>
+
+
+										<div class="form-group row">
+											<label class="col-sm-4 col-form-label">Create Password<span
+													class="text-danger">*</span></label>
+											<div class="col-sm-7">
+												<input type="password" class="form-control"
+													placeholder="*******" />
+											</div>
+
+										</div>
+										<div class="form-group row">
+											<label class="col-sm-4 col-form-label">Confirm Password<span
+													class="text-danger">*</span></label>
+											<div class="col-sm-7">
+												<input type="password" class="form-control"
+													placeholder="*******" />
+
+											</div>
+
+										</div>
+
+										<div class="form-group row align-items-center">
+											<div class="col-2"></div>
+											<div class="col-8">
+											  <button class="btn btn-success btn-lg btn-block" type="submit">Sign In</button>
+											</div>
+										  </div>
+										  
+										  
+
+									</div>
+								</section>
+
+								<div class="form-group row align-items-center">
+									<div class="col-2"></div>
+									<div class="col-8">
+										<a class="btn btn-block" href="/auth/google" role="button">
+											<button type="button" class="google">
+											  <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 256 262">
+												<path fill="#4285F4"
+												  d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027">
+												</path>
+												<path fill="#34A853"
+												  d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1">
+												</path>
+												<path fill="#FBBC05"
+												  d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782">
+												</path>
+												<path fill="#EB4335"
+												  d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251">
+												</path>
+											  </svg>
+											  Sign Up with Google
+											</button>
+										  </a>
+									</div>
+								  </div>
+
+
+								
+								<!-- Step 4 -->
+								
+							</form>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- success Popup html Start -->
-		<button
-			type="button"
-			id="success-modal-btn"
-			hidden
-			data-toggle="modal"
-			data-target="#success-modal"
-			data-backdrop="static"
-		>
-			Launch modal
-		</button>
-		
-		<div
-			class="modal fade"
-			id="success-modal"
-			tabindex="-1"
-			role="dialog"
-			aria-labelledby="exampleModalCenterTitle"
-			aria-hidden="true"
-		>
-			<div
-				class="modal-dialog modal-dialog-centered max-width-400"
-				role="document"
-			>
-				<div class="modal-content">
-					<div class="modal-body text-center font-18">
-						<h3 class="mb-20">Form Submitted!</h3>
-						<div class="mb-30 text-center">
-							<img src="vendors/images/success.png" />
-						</div>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-						eiusmod
+	</div>
+	<!-- success Popup html Start -->
+	<button type="button" id="success-modal-btn" hidden data-toggle="modal" data-target="#success-modal"
+		data-backdrop="static">
+		Launch modal
+	</button>
+
+	<div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered max-width-400" role="document">
+			<div class="modal-content">
+				<div class="modal-body text-center font-18">
+					<h3 class="mb-20">Form Submitted!</h3>
+					<div class="mb-30 text-center">
+						<img src="vendors/images/success.png" />
 					</div>
-					<div class="modal-footer justify-content-center">
-						<a href="login.html" class="btn btn-outline-primary">Done</a>
-					</div>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+					eiusmod
+				</div>
+				<div class="modal-footer justify-content-center">
+					<a href="login.html" class="btn btn-outline-primary">Done</a>
 				</div>
 			</div>
 		</div>
-		<!-- success Popup html End -->
-		
-		<!-- js -->
-		<script src="vendors/scripts/core.js"></script>
-		<script src="vendors/scripts/script.min.js"></script>
-		<script src="vendors/scripts/process.js"></script>
-		<script src="vendors/scripts/layout-settings.js"></script>
-		<script src="src/plugins/jquery-steps/jquery.steps.js"></script>
-		<script src="vendors/scripts/steps-setting.js"></script>
-		<!-- Google Tag Manager (noscript) -->
-		<noscript
-			><iframe
-				src="https://www.googletagmanager.com/ns.html?id=GTM-NXZMQSS"
-				height="0"
-				width="0"
-				style="display: none; visibility: hidden"
-			></iframe
-		></noscript>
-		<!-- End Google Tag Manager (noscript) -->
-	</body>
+	</div>
+	<!-- success Popup html End -->
+
+	<!-- js -->
+	<script src="vendors/scripts/core.js"></script>
+	<script src="vendors/scripts/script.min.js"></script>
+	<script src="vendors/scripts/process.js"></script>
+	<script src="vendors/scripts/layout-settings.js"></script>
+	<script src="src/plugins/jquery-steps/jquery.steps.js"></script>
+	<script src="vendors/scripts/steps-setting.js"></script>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXZMQSS" height="0" width="0"
+			style="display: none; visibility: hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+</body>
+
 </html>
